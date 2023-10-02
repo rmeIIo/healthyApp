@@ -13,5 +13,11 @@
 
 body {
     font-family: 'Poppins', Arial, Helvetica;
-    background-color: var(--main-background);
+    background: url(./assets/Asset\ 10@72x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 24px;
 }
