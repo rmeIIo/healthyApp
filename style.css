@@ -18,6 +18,26 @@ body {
     background-repeat: no-repeat;
 }
 
+.navbar {
+    margin: 25px;
+}
+
 .logo {
-    width: 24px;
+    width: 33px;
+    margin-left: 50px;
+}
+
+.healthy {
+    font-size: 24px;
+    color: var(--green-color);
+    margin-left: 5px;
+}
+
+.navItems {
+    padding-left: 10px;
+    float: right;
+}
+
+.logo, .navItems {
+    text-decoration: none;
 }
