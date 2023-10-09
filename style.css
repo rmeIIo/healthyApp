@@ -15,81 +15,90 @@
 body {
     font-family: 'Poppins', Arial, Helvetica;
     background: url(./assets/Asset\ 10@72x.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
-
 
 .navbar {
     display: flex;
     justify-content: space-around;
-    padding: 34px;
-
+    margin: 15px;
 }
 
 .logo {
-    height: 72px;
+    width: 48px;
     display: inline-block;
     vertical-align: middle;
-    
-    
 }
 
 .healthy {
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: 700;
     color: var(--green-color);
     text-decoration: none;
     display: inline-block;
     vertical-align: middle;
     margin-top: 20px;
-    padding-left: 12px;
-    
+    margin-left: 12px;
+    margin-right: 60px;
 }
 
-.navItems {
+.nav-itens, .nav-item {
+    font-size: 15px;
     list-style: none;
     text-decoration: none;
     display: flex;
-    padding-left: 60px;
-    color: hsl(216, 13%, 61%);
+    margin-left: 60px;
+    margin-top: 15px;
+    color: var(--nav-color);
+}
+
+.active-item, .nav-item:hover {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #BFEFBF, #73C9A6);
+    border-image-slice: 1;
+}
+
+.nav-item:hover {
+    transition: 150ms linear;
+}
+
+.btn-login {
+    border: 2px solid transparent;
+    background: transparent;
+    margin-top: 10px;
+    padding: 5px 25px;
+    border-image: linear-gradient(to bottom, #BFEFBF, #73C9A6);
+    border-image-slice: 1;
+    color: var(--green-color);
 }
 
 .conteudo{
     display: flex;
     justify-content: space-evenly;
-    
 }
+
 .pessoa{
-    height: 700px;
+    height: 650px;
 }
+
 .botao{
     height: 55px;
     display: inline-block;
     vertical-align: middle;
     margin-top: 34px;
     padding-left: 25px;
-    
 }
+
 .conteudo-meio{
     display: inline-block;
     margin-top: 120px;
 }
+
 h2{
     font-size: 60px;
 }
-button{
-    margin-top: 34px;
-    border-radius: 67px;
-    border: none;
-    padding: 15px 50px;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 20px;
-    color: #fff;
-    background: linear-gradient(0deg, rgba(101,188,152,1) 57%, rgba(101,218,169,1) 83%);
-    font-family: 'Poppins', Arial, Helvetica;
-    
-}
+
 h3{
     margin-top: 34px;
    display: inline-block;
