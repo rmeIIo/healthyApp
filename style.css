@@ -85,14 +85,10 @@ body {
     margin-left: 20px;
 }
 
-.main {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .homepage {
     display: flex;
     flex-direction: row;
+    border-bottom: 10px solid #96dab1;
 }
 
 .pessoas-homepage {
@@ -146,4 +142,19 @@ body {
 .btn-experimente-title {
     color: var(--nav-color);
     font-weight: 500;
+}
+
+.fim-homepage {
+    display: flex;
+    flex-direction: row;
+}
+
+.fim-homepage-img {   
+    margin: auto;
+    margin-top: -20px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #96dab1;
 }
