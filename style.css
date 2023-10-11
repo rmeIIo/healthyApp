@@ -194,3 +194,52 @@ body {
     font-weight: 500;
     margin-bottom: 50px;
 }
+
+.home-page3 {
+    background: linear-gradient(to right, #BFEFBF, #73C9A6);
+}
+
+.home-page3-title {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 70px;
+}
+
+
+.home-page3-infos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.home-page-icons {
+    width: 75px;
+    padding-bottom: 15px;
+}
+
+.pessoas-icon {
+    width: 120px;
+}
+
+.home-page-bigP, .home-page-lowP {
+    font-weight: 500;
+}
+
+.home-page-bigP {
+    font-size: 35px;
+    margin-bottom: -10px;
+}
+
+.home-page-lowP {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
