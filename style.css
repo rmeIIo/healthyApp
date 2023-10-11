@@ -199,14 +199,13 @@ body {
     background: linear-gradient(to right, #BFEFBF, #73C9A6);
 }
 
-.home-page3-title {
+.home-page3-title{
     text-align: center;
     color: #fff;
     font-size: 40px;
     font-weight: 700;
     padding: 50px 70px;
 }
-
 
 .home-page3-infos {
     display: grid;
@@ -242,4 +241,21 @@ body {
 .home-page-lowP {
     font-size: 20px;
     margin-bottom: 50px;
+}
+
+.border-page4 {
+    display: block;
+}
+
+.home-page4-title {
+    text-align: center;
+    color: #000;
+    font-size: 65px;
+    padding-bottom: 5px;
+}
+
+.home-page4-infos {
+    text-align: center;
+    color: var(--nav-color);
+    font-size: 18px;
 }
