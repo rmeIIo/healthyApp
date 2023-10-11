@@ -85,7 +85,7 @@ body {
     margin-left: 20px;
 }
 
-.homepage {
+.home-page1 {
     display: flex;
     flex-direction: row;
     border-bottom: 10px solid #96dab1;
@@ -120,6 +120,12 @@ body {
     color: #fff;
     font-size: 22px;
     font-weight: 700;
+    cursor: pointer;
+    transition: 100ms ease-in;
+}
+
+.btn-saiba-mais:hover {
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn-experimente {
@@ -131,6 +137,7 @@ body {
     color: var(--nav-color);
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .btn-experimente-img {
@@ -157,4 +164,33 @@ body {
     padding: 10px;
     border-radius: 30px;
     background-color: #96dab1;
+}
+
+.border {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #BFEFBF, #73C9A6) 1;
+    border-image-slice: 1;
+    margin: 30px;
+    padding: 50px;
+    display: flex;
+}
+
+.frutas {
+    padding: 0;
+    width: 550px;
+    margin-top: -80px;
+    margin-right: -75px;
+    margin-bottom: -75px;
+}
+
+.about-us-title {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.about-us-info {
+    color: var(--nav-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
 }
