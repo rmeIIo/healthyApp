@@ -296,3 +296,33 @@ body {
   color: #8f99a8;
   text-align: center;
 }
+.home-page5{
+    background: linear-gradient(to right, #BFEFBF, #73C9A6);
+}
+.home-page5-title{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 70px;
+}
+.home-page5-p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: -50px;
+}
+.grid-homepage5{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: 430px;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+.grid-items-home5{
+    background-color: #eeeded;
+    border-radius: 20px;
+    
+}
