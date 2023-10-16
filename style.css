@@ -20,7 +20,6 @@ body {
     position: absolute;
     display: flex;
     justify-content: space-around;
-    left: 15px;
     margin: 15px;
 }
 
@@ -28,6 +27,7 @@ body {
     width: 48px;
     display: inline-block;
     vertical-align: middle;
+    margin-left: 30px;
 }
 
 .healthy {
@@ -39,7 +39,7 @@ body {
     vertical-align: middle;
     margin-top: 20px;
     margin-left: 12px;
-    margin-right: 250px;
+    margin-right: 160px;
 }
 
 .nav-itens, .nav-item, .btn-login, .btn-register {
@@ -89,7 +89,7 @@ body {
     flex-direction: row;
     border-bottom: 10px solid #96dab1;
     background: url(./assets/Asset\ 10@72x.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -243,7 +243,10 @@ body {
 
 .home-page-lowP {
     font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .border-page4 {
@@ -321,20 +324,6 @@ body {
     color: #fff;
 }
 
-.depoimentos {
-    display: grid;    
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 30px;
-}
-
-.depoimento {
-    background-color: rgb(230, 229, 229);
-    border-radius: 15px;
-    padding: 14px;
-    justify-items: center;
-    align-items: center;
-    margin: 0 40px;
-}
 .home-page5{
     background: linear-gradient(to right, #BFEFBF, #73C9A6);
 }
@@ -363,5 +352,87 @@ body {
 .grid-items-home5{
     background-color: #eeeded;
     border-radius: 20px;
-    
 }
+
+.depoimentos {
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 30px;
+}
+
+.depoimento {
+    background-color: rgba(254, 254, 254, 0.8);
+    border-radius: 15px;
+    padding: 14px;
+    margin: 0 40px 20px 40px;
+}
+
+.depoimento > img {
+    width: 60px;
+    margin-left: 40%;
+    margin-top: 10px;
+    border: 1px solid var(--green-color);
+    border-radius: 30px;
+}
+
+.depoimento > h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.depoimento > p {
+    text-align: center;
+    font-size: 14px;
+    color: var(--nav-color);
+    margin-bottom: 10px;
+}
+
+.price-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.table-plan {
+    border-radius: 12px 12px 0px 0px;
+    background-color: rgba(254, 254, 254, 0.8);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 15px;
+}
+
+.table-header {
+    border-radius: 12px 12px 0px 0px;
+    background: linear-gradient(to right, #BFEFBF, #73C9A6);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.table-infos {
+
+}
+
+.table-infos > hr {
+    margin-top: 30px;
+    margin-left: 35%;
+    color: lightgray;
+    width: 30%;
+}
+
+.table-info {
+    margin-left: 20px;
+    margin-top: 20px;
+    list-style: none;
+    text-align: left;
+}
+
+.table-list {
+    display: flex;
+    margin: 20px;
+}
+
+.table-list > img {
+    width: 24px;
+}
+
