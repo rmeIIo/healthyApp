@@ -566,22 +566,29 @@ body {
 .container-menu {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
     gap: 2px;
-    padding: 40px;
-    
+    padding: 40px;   
 }
 
 .menu-item {
     text-align: center;
+    background: none;
+    border: none;
 }
 
 .menu-item img {
     width: 250px;
+    transition: filter 0.3s;
 }
 
 .menu-item p {
     font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.menu-item img:hover {
+    filter: brightness(0.8);
 }
 
 @media (min-width:320px) and (max-width: 600px) {
@@ -935,6 +942,7 @@ body {
         margin-right: 40px;
     }
 }
+
 .receitas-page3 {
   background: linear-gradient(90deg, #73C9A6 0%, #CCFFC4 108.23%);
   display: flex;
@@ -973,90 +981,98 @@ body {
   height: 780px;
   margin-top: -20px;
 }
+
 .receitas-page4{
     border: 5px solid transparent;
     border-image: linear-gradient(to right, #BFEFBF, #73C9A6) 1;
     border-image-slice: 1;
     margin: 30px;
-    padding: 50px;
     display: flex;
     flex-direction: column;
 }
-  .h1-receitas-page4{
+
+.h1-receitas-page4{
     font-size: 50px;
     margin-left: 80px;
-    
-    
-  }
+}
   
-  .receitas {
+.receitas {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: space-evenly;
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
-    
-    
-  }
-  .receitas span, .receitas4-1 span{
+}
+
+.receitas h2, .receitas4-1 h2{
     font-size: 25px;
     font-weight: 400;
-  }
-  .receitas small, .receitas4-1 small{
+}
+
+.receitas p, .receitas4-1 p{
     color: var(--nav-color);
     font-size: 15px;
-  }
-  .receitas b, .receitas4-1 b{
+}
+
+.receitas a, .receitas4-1 a{
     color: #000;
-  }
-  .img-receitas-page4{
+    text-decoration: none;
+}
+
+.img-receitas-page4{
     height: 450px;
     width: 450px;
     padding: 20px;
     margin-left:80px;
-
-  }
-  .container-receitas4{
+    border-radius: 12px;
+}
+  
+.container-receitas4{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 50px;
+}
 
-  }
-  .h1-receitas-page4-1{
+.h1-receitas-page4-1{
     font-size: 50px;
     margin-right: 35px;
-    text-align: center;
-    
+    text-align: right;
 }
+
 .img-receitas-page4-1{
     height: 450px;
     width: 450px;
     padding: 10px;
     float: right;
+    border-radius: 12px;
 }
+
 .container-receitas4-1{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     margin-top: 55px;
-    
 }
+
 .receitas4-1{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     justify-content: space-evenly;
-    text-align: center;
+    text-align: right;
     margin-left: 50px;
     margin-top: 50px;
 }
+
 .p-receitas-page4{
     float: right;
     padding-top: 20px;
     color: var(--nav-color);
 }
-.p-receitas-page4 b{
+
+.p-receitas-page4 a{
     color: black;
+    text-decoration: none;
 }
