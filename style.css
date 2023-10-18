@@ -592,9 +592,7 @@ body {
 }
 
 @media (min-width:320px) and (max-width: 600px) {
-    .home-page1 {
-        background-size: auto;
-        background-repeat: no-repeat;
+    .home-page1 {        
         display: flex;
         flex-direction: column;
         align-content: center;
