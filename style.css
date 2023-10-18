@@ -584,6 +584,145 @@ body {
     font-weight: bold;
 }
 
+@media (min-width:320px) and (max-width: 600px) {
+    .home-page1 {
+        background-size: auto;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: 50px;
+    }
+    
+    .healthy {
+        display: none;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .btn-register {
+        display: none;
+    }
+
+    .pessoas-homepage {
+        margin: 100px 0 0 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    .titulo-homepage {
+        margin: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .btn-experimente {
+        display: none;
+    }
+
+    .btns-homepage {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-saiba-mais {
+        margin: 0 0 30px 0;
+    }
+
+    .about-us-title {
+        font-size: 35px;
+    }
+
+    .about-us-info {
+        font-size: 14px;
+    }
+
+    .frutas {
+        display: none;
+    }
+
+    .border {
+        padding: 20px;
+    }
+
+    .home-page3-title {
+        display: none;
+    }
+
+    .home-page3-infos {
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home-page4-title {
+        font-size: 25px;
+    }
+
+    .home-page4-infos {
+        font-size: 16px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .home-page5-title {
+        font-size: 25px;
+    }
+
+    .home-page5-p {
+        display: none;
+    }
+
+    .depoimentos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .price-table {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .border-page4 {
+        padding: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin: 0;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .healthy-footer {
+        margin: 0;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        margin: 0;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ul-footer {
+        margin: 0;
+    }
+}
+
 @media (min-width: 600px) and (max-width: 768px) {
     .nav-item {
         display: none;
