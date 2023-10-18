@@ -939,6 +939,16 @@ body {
     .ul-footer{
         margin-right: 40px;
     }
+
+    .container-menu {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .receitas3-title {
+        font-size: 30px;
+        color: #FBFBFB;
+      }
 }
 
 .receitas-page3 {
