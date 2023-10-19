@@ -1088,179 +1088,216 @@ body {
   
 
 @media (min-width:320px) and (max-width: 600px) {
+    .home-page1 {
+        background-size: auto;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: 50px;
+    }
+    
     .healthy {
         display: none;
     }
 
     .nav-item {
-        margin-left: 03px;
+        display: none;
     }
 
-    .btn-login {
-        margin-left: 01px;
+    .btn-register {
+        display: none;
     }
 
     .pessoas-homepage {
-        height: 350px;
+        margin: 100px 0 0 0;
+        width: 300px;
+        height: 300px;
     }
 
     .titulo-homepage {
-        margin-top: 150px;
-        font-size: 40px;
-    }
-
-    .btn-saiba-mais {
-        width: 150px;
-        height: 35px;
-        font-size: 15px;
+        margin: 0;
+        font-size: 30px;
+        text-align: center;
     }
 
     .btn-experimente {
-        font-size: 11px;
-        margin-left: 25px;
-    }
-
-    .btn-experimente-img {
-        width: 45px;
-    }
-
-    .frutas {
         display: none;
     }
 
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+    .btns-homepage {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
     }
 
-    .depoimentos {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
+    .btn-saiba-mais {
+        margin: 0 0 30px 0;
     }
 
-    .home-page4-title {
-        font-size: 40px;
+    .about-us-title {
+        font-size: 35px;
     }
 
-    .price-table {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-
-    .healthy-footer {
-        display: none;
-    }
-
-    .ul-footer{
-        font-size: 16px;
-        margin-right: 15px;
-    }
-
-    .ul-footer h3 {
-        font-size: 16px;
-    }
-
-    .ul-footer li {
+    .about-us-info {
         font-size: 14px;
     }
 
-    .receitas-page1 > h1 {
-        font-size: 35px;
-        width: 400px;
+    .frutas {
+        display: none;
     }
 
-    .container-menu {
-        grid-template-columns: repeat(2, 1fr);
+    .border {
+        padding: 20px;
+    }
+
+    .home-page3-title {
+        display: none;
+    }
+
+    .home-page3-infos {
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home-page4-title {
+        font-size: 25px;
+    }
+
+    .home-page4-infos {
+        font-size: 16px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
 
-    .title-receita-page2 {
-        margin-bottom: 10px;
-        font-size: 47px;
-    }
-
-    .receitas3-title {
-        font-size: 40px;
-    }
-
-    .receitas3-info {
-        color: #FBFBFB;
+    .home-page5-title {
         font-size: 25px;
-        font-weight: 400;
-        margin-bottom: 50px;
     }
 
-    .verduras {
+    .home-page5-p {
         display: none;
     }
 
-    .h1-receitas-page4 {
-        font-size: 47px;
-        margin-left: 80px;
+    .depoimentos {
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .receitas h2, .receitas4-1 h2 {
-        font-size: 15px;
-        font-weight: 400;
+    .price-table {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
     }
 
-    .receitas p, .receitas4-1 p {
-        color: var(--nav-color);
-        font-size: 11px;
+    .border-page4 {
+        padding: 10px;
     }
 
-    .img-receitas-page4 {
-        height: 375px;
-        width: 375px;
-        padding: 20px;
-        margin-left: 80px;
-        border-radius: 12px;
-    }
-} 
-@media (min-width: 600px) and (max-width: 800px) {
-    .healthy {
-        display: none;
+    .footer {
+        flex-direction: column;
+        margin: 0;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
     }
 
+    .healthy-footer {
+        margin: 0;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        margin: 0;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ul-footer {
+        margin: 0;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
     .nav-item {
-        margin-left: 14px;
+        display: none;
     }
 
-    .btn-login {
-        margin-left: 30px;
+    .healthy {
+        margin-right: 70px;
     }
 
     .pessoas-homepage {
-        height: 350px;
+        margin-left: 20px;
+        margin-top: 0;
+        width:  300px    
     }
 
     .titulo-homepage {
-        margin-top: 150px;
-        font-size: 40px;
+        margin-top: 175px;
+        font-size: 35px;
+        width: 250px;
     }
 
     .btn-saiba-mais {
-        width: 150px;
-        height: 35px;
-        font-size: 15px;
+        display: block;
     }
 
-    .btn-experimente {
-        font-size: 11px;
-        margin-left: 25px;
+    .btns-homepage {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .btn-experimente-img {
-        width: 45px;
+    .about-us-title {
+        font-size: 45px;
     }
 
     .frutas {
         display: none;
     }
 
+    .home-page3-title {
+        font-size: 30px;
+    }
+
+    .home-page-icons {
+        width: 65px;
+    }
+    
+    .pessoas-icon {
+        width: 110px;
+    }
+    
+    .home-page-bigP {
+        font-size: 25px;
+        margin-bottom: -10px;
+        text-align: center;
+    }
+    
+    .home-page-lowP {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .home-page4-title {
+        font-size: 45px;
+    }
+
     .grid-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
+        margin: 70px;
     }
 
     .depoimentos {
@@ -1269,11 +1306,11 @@ body {
     }
 
     .home-page4-title {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .price-table {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
 
@@ -1281,65 +1318,20 @@ body {
         display: none;
     }
 
-    .ul-footer{
-        font-size: 11px;
-        margin-right: 11px;
-    }
-
-    .ul-footer h3 {
-        font-size: 11px;
-    }
-
-    .ul-footer li {
-        font-size: 8px;
-    }
-
-    .receitas-page1 > h1 {
-        font-size: 27px;
-        width: 305px;
-    }
-
-    .container-menu {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-    }
-
-    .title-receita-page2 {
-        margin-bottom: 17px;
-        font-size: 37px;
-    }
-    .receitas3-info {
-        color: #FBFBFB;
-        font-size: 25px;
-        font-weight: 400;
-        margin-bottom: 50px;
-    }
-
-    .verduras {
+    .logo-footer {
         display: none;
     }
 
-    .h1-receitas-page4 {
-        font-size: 47px;
-        margin-left: 80px;
+    .ul-footer{
+        margin-right: 10px;
     }
 
-    .receitas h2, .receitas4-1 h2 {
+    .ul-footer h3 {
         font-size: 15px;
-        font-weight: 400;
     }
 
-    .receitas p, .receitas4-1 p {
-        color: var(--nav-color);
-        font-size: 11px;
-    }
-
-    .img-receitas-page4 {
-        height: 375px;
-        width: 375px;
-        padding: 20px;
-        margin-left: 80px;
-        border-radius: 12px;
+    .ul-footer li {
+        font-size: 12px;
     }
 }
 
@@ -1418,59 +1410,6 @@ body {
 
     .ul-footer li {
         font-size: 14px;
-    }
-
-    .receitas-page1 > h1 {
-        font-size: 35px;
-        width: 400px;
-    }
-
-    .container-menu {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-
-    .title-receita-page2 {
-        margin-bottom: 10px;
-        font-size: 47px;
-    }
-
-    .receitas3-title {
-        font-size: 40px;
-    }
-
-    .receitas3-info {
-        color: #FBFBFB;
-        font-size: 25px;
-        font-weight: 400;
-        margin-bottom: 50px;
-    }
-
-    .verduras {
-        display: none;
-    }
-
-    .h1-receitas-page4 {
-        font-size: 47px;
-        margin-left: 80px;
-    }
-
-    .receitas h2, .receitas4-1 h2 {
-        font-size: 15px;
-        font-weight: 400;
-    }
-
-    .receitas p, .receitas4-1 p {
-        color: var(--nav-color);
-        font-size: 11px;
-    }
-
-    .img-receitas-page4 {
-        height: 375px;
-        width: 375px;
-        padding: 20px;
-        margin-left: 80px;
-        border-radius: 12px;
     }
 }
 
