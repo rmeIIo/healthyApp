@@ -281,7 +281,7 @@ body {
 .grid-item {
     background-color: rgb(230, 229, 229);
     border-radius: 15px;
-    padding: 14px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1120,4 +1120,228 @@ body {
         gap: 30px;
     }
 
+<<<<<<< Updated upstream
+=======
+.receitas-page3 {
+  background: linear-gradient(90deg, #73C9A6 0%, #CCFFC4 108.23%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
 }
+
+.receitas3-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.receitas3-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #FBFBFB;
+}
+
+.receitas3-info {
+  color: #FBFBFB;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.receitas3-image {
+  max-width: 50%;
+  text-align: right;
+}
+
+.verduras {
+  height: 780px;
+  margin-top: -20px;
+}
+
+.receitas-page4{
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #BFEFBF, #73C9A6) 1;
+    border-image-slice: 1;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-receitas-page4{
+    font-size: 50px;
+    margin-left: 80px;
+}
+  
+.receitas {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.receitas h2, .receitas4-1 h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.receitas p, .receitas4-1 p{
+    color: var(--nav-color);
+    font-size: 15px;
+}
+
+.receitas a, .receitas4-1 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.img-receitas-page4{
+    height: 450px;
+    width: 450px;
+    padding: 20px;
+    margin-left:80px;
+    border-radius: 12px;
+}
+  
+.container-receitas4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.h1-receitas-page4-1{
+    font-size: 50px;
+    margin-right: 35px;
+    text-align: right;
+}
+
+.img-receitas-page4-1{
+    height: 450px;
+    width: 450px;
+    padding: 10px;
+    float: right;
+    border-radius: 12px;
+}
+
+.container-receitas4-1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+
+.receitas4-1{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-evenly;
+    text-align: right;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.p-receitas-page4{
+    float: right;
+    padding-top: 20px;
+    color: var(--nav-color);
+}
+
+.p-receitas-page4 a{
+    color: black;
+    text-decoration: none;
+}
+
+.planos-page1{ 
+    display: flex;
+    background: url(./assets/lista-de-refeicoes-para-fazer-e-composicao-dos-alimentos.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.planos-page1 > h1 {
+    margin: 20% 70px;
+    color: #000;
+    font-size: 90px;
+    font-weight: 700;
+    width: 500px;
+}
+.planos-page2{
+    background: linear-gradient(90deg, #73C9A6 0%, #CCFFC4 108.23%);
+}
+.title-planos2{
+    font-size: 50px;
+    text-align: center;
+    color: #FBFBFB;
+    padding: 23px;
+}
+.p-planos2{
+    font-size: 20px;
+    text-align: center;
+    color: #FBFBFB;
+    margin-top: -20px;
+}
+.planos-item{
+    margin-top: -34px;
+    margin-bottom: 50px
+}
+.formulario-teste {
+    text-align: center;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #73c9a6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5eab8b;
+}
+.planos-page-form{
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #BFEFBF, #73C9A6) 1;
+    border-image-slice: 1;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+    
+
+
+
+
+
+>>>>>>> Stashed changes
