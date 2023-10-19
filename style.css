@@ -723,7 +723,113 @@ body {
 .p-receitas-page4 a{
     color: black;
     text-decoration: none;
-} 
+}
+
+.receita-page1 {
+    height: 692px;
+    display: flex;
+    background: url(./assets/receita.png);
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.receita-page1-title {
+    text-align: center;
+    width: 670px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 24px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.receita-page1-title h1 {
+    color: var(--green-color);
+    font-size: 40px;
+}
+
+.receita-page1-title p {
+    color: var(--nav-color);
+}
+
+.grid-container-receita {
+    margin: 0;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item-receita {
+    margin: 30px;
+}
+
+.border-receita {
+    flex-direction: column;
+}
+
+.receita-page2 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.receita-page2-title h2 {
+    font-size: 45px;
+}
+
+.receita-page2-title p {
+    font-size: 18px;
+}
+
+.receita-page2-img img {
+    width: 300px;
+    border-radius: 24px;
+    margin: 10px 40px;
+}
+
+.receita-page2-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ingredientes {
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.ingredientes h2 {
+    font-size: 35px;
+    color: var(--green-color);
+}
+
+.ingredientes h2 img, .instrucoes h2 img {
+    width: 35px;
+}
+
+.ingredientes label {
+    font-size: 16px;
+}
+
+.check {
+    width: 30px;
+    margin: 15px;
+}
+
+.instrucoes h2{
+    font-size: 35px;
+    margin-top: 20px;
+    color: var(--green-color);
+}
+
+.instrucoes ol{
+    margin-left: 40px;
+}
+
+.instrucoes ol li{
+    padding: 10px;
+}
 
 @media (min-width:320px) and (max-width: 600px) {
     .home-page1 {        
@@ -969,6 +1075,14 @@ body {
     .ul-footer li {
         font-size: 12px;
     }
+
+    .receitas-page1 > h1 {
+        margin: 20% 70px;
+        color: #ffff;
+        font-size: 30px;
+        font-weight: 700;
+        width: 500px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1047,6 +1161,44 @@ body {
     .ul-footer li {
         font-size: 14px;
     }
+
+    .receitas-page1 > h1 {
+        margin: 20% 70px;
+        color: #ffff;
+        font-size: 35px;
+        font-weight: 600;
+        width: 400px;
+    }
+
+    .container-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 40px;   
+    }
+
+    .title-receita-page2 {
+        margin-bottom: 10px;
+        font-size: 47px;
+    }
+
+    .receitas3-title {
+        font-size: 20px;
+        font-weight: 400;
+        color: #FBFBFB;
+    }
+
+    .receitas3-info {
+        color: #FBFBFB;
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    .receitas h2, .receitas4-1 h2 {
+        font-size: 15px;
+        font-weight: 300;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
@@ -1085,7 +1237,6 @@ body {
       }
 }
 
-
 .receitas-page3 {
   background: linear-gradient(90deg, #73C9A6 0%, #CCFFC4 108.23%);
   display: flex;
@@ -1103,14 +1254,14 @@ body {
 }
 
 .receitas3-title {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color: #FBFBFB;
 }
 
 .receitas3-info {
   color: #FBFBFB;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 50px;
 }
@@ -1121,7 +1272,7 @@ body {
 }
 
 .verduras {
-  height: 780px;
+  height: 680px;
   margin-top: -20px;
 }
 
@@ -1259,19 +1410,19 @@ body {
     background-color: #f4f4f4;
 }
 
-h2 {
+.planos-titulo {
     font-size: 24px;
     color: #333;
 }
 
-label {
+.label {
     display: block;
     margin-top: 10px;
     font-weight: 700;
 }
 
-input[type="text"],
-input[type="email"] {
+.nome,
+.email {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -1279,7 +1430,7 @@ input[type="email"] {
     border-radius: 5px;
 }
 
-button {
+.inscreva-se {
     background-color: #73c9a6;
     color: #fff;
     padding: 10px 20px;
@@ -1290,7 +1441,7 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+.inscreva-se:hover {
     background-color: #5eab8b;
 }
 .planos-page-form{
@@ -1301,48 +1452,9 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
-.sobre-page1{ 
-    display: flex;
-    background: url(./assets/pessoas-de-negocios.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.sobre-page1 > h1 {
-    margin: 20% 70px;
-    color: #fff;
-    font-size: 90px;
-    font-weight: 700;
-    width: 500px;
-    margin-left: 35%;
-   
-}
-.sobre-page2 {
-    background-color: #f5f5f5; 
-    padding: 40px; 
-    text-align: center; 
-  }
-  
-  .h1-sobre-page2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px; 
-    color: #333; 
-  }
-  .sobre-info {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: center;
-    color: #666; 
-  }
-  .legumes {
-    margin-top: 20px; 
-    max-width: 100%; 
-    height: 340px;
-  }
-      
 
     
+
 
 
 
